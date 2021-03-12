@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="jp">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css" rel="stylesheet">
+
+    <title>over40勉強会</title>
+</head>
+<body>
+    <header>
+        <nav class="flex justify-between border p-2 m-2">
+            <img src="image/over40-logo.png" alt="over40のロゴ">
+            <div class="menu flex items-center">
+                <button>
+                    <svg class="h-6 w-6 fill-current md:hidden" viewBox="0 0 24 24">
+                        <path d="M24 6h-24v-4h24v4zm0 4h-24v4h24v-4zm0 8h-24v4h24v-4z"/>
+                    </svg>                       
+                  </button>
+                <ul class="hidden md:flex">
+                    <li class="pr-10 text-2xl">活動内容</li>
+                    <li class="pr-10 text-2xl">メンバー</li>
+                    <li class="pr-10 text-2xl">お問い合わせ</li>
+                </ul>
+            </div>
+            
+        </nav>
+    </header>
+    <main class="border bg-cover flex items-center justify-center flex-col" style="background: url(image/main.jpg) no-repeat center; height: 90vh;">
+        <!-- <h1 class="text-white" style="font-size: 5vw;">over40 web Club　へようこそ</h1> -->
+        <h1 class="text-3xl md:text-5xl lg:text-7xl text-white">over40 web Club　へようこそ</h1>
+    </main>
+    
+</body>
+</html>
